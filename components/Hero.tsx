@@ -9,6 +9,7 @@ function Hero() {
         fill
         className=" bg-cover bg-no-repeat"
         priority
+        loading="eager"
       />
       <div className="flex-1 flex flex-col gap-10">
         <Image
